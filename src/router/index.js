@@ -1,10 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import Home from '../views/home.vue';
-import List from '../views/list.vue';
-import Order from '../views/order.vue';
-import Mine from '../views/mine.vue';
+import Home from '../views/home/index.vue';
+import List from '../views/list/index.vue';
+import Order from '../views/order/index.vue';
+import Mine from '../views/mine/index.vue';
 import One from '../components/one.vue';
 Vue.use(VueRouter);
 

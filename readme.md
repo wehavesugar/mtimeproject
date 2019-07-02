@@ -7,7 +7,7 @@
         /src/common >>>>>>>>>>>>>>共用组件 如 header navBar footer 等)
         /src/components >>>>>>>>>>>>>>所有其他小组件放在这个目录下)
         /src/router/router.js >>>>>>>>>>>>>>路由文件
-        /src/views/(页面名).vue >>>>>>>>>>>>>>页面模板
+        /src/views/子页面文件夹/*.vue >>>>>>>>>>>>>>子页面文件夹 子页面以及其子页面模板
         /src/App.vue App.vue
         /src/main.js main.js
         /static >>>>>>>>>>>>>>所有静态文件 css js font img
