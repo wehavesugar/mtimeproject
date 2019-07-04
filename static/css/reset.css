@@ -42,17 +42,14 @@ var {
 	font-style: normal;
 	font-weight: normal;
 }
-
+em,
+i {
+	font-style: normal;
+}
 ul,
 ol,
 li {
 	list-style: none;
-}
-
-body {
-	color: #333;
-	font: 12px 'Helvetica neue', '微软雅黑';
-	background: #fff;
 }
 
 a {
@@ -69,5 +66,11 @@ a {
 body,
 html {
 	height: 100%;
-	overflow: hidden;
+	overflow: auto;
+	color: #333;
+	font: 14px 'Helvetica neue', '微软雅黑';
+	background: #fff;
+}
+* {
+	box-sizing: border-box;
 }
