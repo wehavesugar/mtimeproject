@@ -46,7 +46,7 @@ export default {
         {
           icon: "&#xe605;",
           title: "发现",
-          path: "/mine"
+          path: "/explore"
         }
       ]
     };
