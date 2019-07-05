@@ -7,6 +7,7 @@
 </template>
 
 <script>
+
 import TabBar from "./common/tabbar.vue";
 import Footer from "./common/ComponentFooter.vue";
 export default {
