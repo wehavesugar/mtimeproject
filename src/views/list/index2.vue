@@ -278,7 +278,7 @@ export default {
 </script>
 
 <style scoped>
-.header {
+header {
   position: fixed;
   top: 1rem;
   left: 0;
@@ -340,15 +340,14 @@ export default {
   width: 100%;
   height: 1.238rem;
   padding: 0.19rem 0.36rem;
-  border-bottom: 1px solid #999;
 }
 .cityshow {
   float: left;
-  margin-right: 0.2rem;
+  margin-right: 0.5rem;
   height: 3.5em;
 }
 .cityshow b {
-  font-size: 0.32rem;
+  font-size: 0.28rem;
   font-weight: normal;
   display: inline-block;
   float: left;
@@ -356,27 +355,26 @@ export default {
 }
 .cityshow i {
   display: block;
-  width: 1.2rem;
+  width: 0.9rem;
   height: 0.82rem;
-  background: url(../../../static/img/i_city.png) no-repeat 0.8rem 0.4rem;
+  background: url(../../../static/img/i_city.png) no-repeat 0.6rem 0.35rem;
 }
 .search {
   float: left;
-  width: 5rem;
+  width: 5.334rem;
   height: 0.7876rem;
   font-size: 0.24rem;
   line-height: 0.7876rem;
-  padding: 0 0.5rem 0 0.95rem;
-  border: 1px solid #777;
-  border-radius: 0.18rem;
+  padding: 0 0.6rem 0 0.95rem;
+  border-radius: 0.3rem;
   position: relative;
-  background: #fff url(../../../static/img/search_ico_01.png) no-repeat 0.25rem
-    0.15rem;
+  background: #fff url(../../../static/img/search_ico_01.png) no-repeat 0.3rem
+    0.2rem;
   background-size: 0.5rem 0.5rem;
 }
 .search span {
   color: #777;
-  font-size: 0.32rem;
+  font-size: 0.3rem;
 }
 .content {
   position: fixed;
