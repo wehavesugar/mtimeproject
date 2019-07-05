@@ -64,7 +64,7 @@
 
 <script>
 export default {
-  name: "footer",
+  name: "ComponentFooter",
   data() {
     return {
       tabBars: [
