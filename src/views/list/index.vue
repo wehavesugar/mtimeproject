@@ -279,9 +279,6 @@ export default {
 
 <style scoped>
 .header {
-  position: fixed;
-  top: 1rem;
-  left: 0;
   width: 100%;
   height: 1.056rem;
   background: #1c2635;
@@ -296,8 +293,8 @@ export default {
   width: 1.056rem;
   height: 1.056rem;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 1rem;
+  left: 0.1rem;
   color: #fff;
   text-align: center;
   background: url(../../../static/img/h_btn_back.png) no-repeat 0.3rem center;
@@ -333,9 +330,6 @@ export default {
   color: #fff;
 }
 .movie_search {
-  position: fixed;
-  top: 2.056rem;
-  left: 0;
   background: #eee;
   width: 100%;
   height: 1.238rem;
@@ -350,7 +344,7 @@ export default {
 .cityshow b {
   font-size: 0.32rem;
   font-weight: normal;
-  display: inline-block;
+  display: block;
   float: left;
   margin-top: 0.2rem;
 }
@@ -379,9 +373,6 @@ export default {
   font-size: 0.32rem;
 }
 .content {
-  position: fixed;
-  top: 3.256rem;
-  left: 0;
   width: 100%;
   overflow: hidden;
   display: flex;

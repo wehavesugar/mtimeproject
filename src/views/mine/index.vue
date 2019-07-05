@@ -3,12 +3,12 @@
     <header class="header">
       <a href="#" class="back"></a>
       <ul class="show_option">
-        <li class="opt_active">
+        <li>
           <a href="#">
             <span>正在热映</span>
           </a>
         </li>
-        <li>
+        <li class="opt_active">
           <a href="#">
             <span>即将上映</span>
           </a>
@@ -51,7 +51,7 @@
                   </div>
                   <div class="btn">
                     <a href="#" class="btn_orange">超前预售</a>
-                    <a href="#">预告片</a>
+                    <a href="#" class="btn_green">预告片</a>
                   </div>
                 </div>
               </div>
@@ -75,7 +75,7 @@
                   </div>
                   <div class="btn">
                     <a href="#" class="btn_orange">超前预售</a>
-                    <a href="#">预告片</a>
+                    <a href="#" class="btn_green">预告片</a>
                   </div>
                 </div>
               </div>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="btn">
                   <a href="#" class="btn_orange">超前预售</a>
-                  <a href="#">预告片</a>
+                  <a href="#" class="btn_green">预告片</a>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@
                 </div>
                 <div class="btn">
                   <a href="#" class="btn_orange">超前预售</a>
-                  <a href="#">预告片</a>
+                  <a href="#" class="btn_green">预告片</a>
                 </div>
               </div>
             </div>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="btn">
                   <a href="#" class="btn_orange">超前预售</a>
-                  <a href="#">预告片</a>
+                  <a href="#" class="btn_green">预告片</a>
                 </div>
               </div>
             </div>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="btn">
                   <a href="#" class="btn_orange">超前预售</a>
-                  <a href="#">预告片</a>
+                  <a href="#" class="btn_green">预告片</a>
                 </div>
               </div>
             </div>
@@ -238,8 +238,8 @@ export default {
   width: 1.056rem;
   height: 1.056rem;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 1rem;
+  left: 0.1rem;
   color: #fff;
   text-align: center;
   background: url(../../../static/img/h_btn_back.png) no-repeat 0.3rem center;
@@ -290,7 +290,7 @@ export default {
 .cityshow b {
   font-size: 0.32rem;
   font-weight: normal;
-  display: inline-block;
+  display: block;
   float: left;
   margin-top: 0.2rem;
 }
@@ -410,8 +410,6 @@ export default {
   height: 0.7rem;
   line-height: 0.7rem;
   text-align: center;
-  border: 1px solid #659c0d;
-  color: #659c0d;
   border-radius: 0.4rem;
   font-size: 0.34rem;
 }
@@ -419,6 +417,10 @@ export default {
   background: #ff8600;
   color: #fff;
   border: 1px solid #ff8600;
+}
+.btn_green {
+  border: 2px solid #659c0d;
+  color: #659c0d;
 }
 .space {
   width: 100%;
@@ -444,6 +446,7 @@ export default {
 }
 .day {
   width: 0.6rem;
+  color: #999;
 }
 .movieboxlist {
   width: 6.4rem;
