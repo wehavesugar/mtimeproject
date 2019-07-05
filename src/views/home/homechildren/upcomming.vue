@@ -2,32 +2,143 @@
   <div id="wrap">
     <header class="header">
       <a href="#" class="back"></a>
-      <h3>选择城市</h3>
+      <a href="#" class="share"></a>
     </header>
-    <div class="search">
-      <input type="text" placeholder="请输入搜索关键词" />
-      <span>取消</span>
-    </div>
-    <div>
-      <div class="citylist"></div>
-      <div class="current_hot">
-        <dd class="curren">
-          <p>当前城市</p>
+    <div class="wrapcon">
+      <div class="filmtitle">
+        <ul>
+          <li>
+            <div class="title">
+              <h3>北京金逸国际影城荟聚店</h3>
+              <div class="icon">
+                <i class="i_01"></i>
+                <i class="i_02"></i>
+                <i class="i_03"></i>
+                <i class="i_04"></i>
+                <i class="i_05"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="tel"></a>
+          </li>
+          <li>
+            <a href="#" class="location"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="hotmovie">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="../../../static/img/get1.jpg" />
+              <b class="m_title">蜘蛛侠：英雄归来</b>
+              <i class="m_score">8.1</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../../../static/img/get1.jpg" />
+              <b class="m_title">蜘蛛侠：英雄归来</b>
+              <i class="m_score">8.1</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../../../static/img/get1.jpg" />
+              <b class="m_title">蜘蛛侠：英雄归来</b>
+              <i class="m_score">8.1</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../../../static/img/get1.jpg" />
+              <b class="m_title">蜘蛛侠：英雄归来</b>
+              <i class="m_score">8.1</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="select">
+        <div class="movie_title">
+          <a href="#">
+            <h3 class="select_tit">蜘蛛侠：英雄归来</h3>
+            <p>100分钟 - 动作 / 剧情 / 犯罪</p>
+            <i class="more"></i>
+          </a>
+        </div>
+        <div class="search_tab">
+          <ul>
+            <li class="on">明天（7月05日）</li>
+            <li>明天（7月05日）</li>
+            <li>明天（7月05日）</li>
+          </ul>
+        </div>
+        <div class="downapp">
+          <i class="sun"></i>
+          <p>用时光网App购票，享受更多优惠</p>
+          <span>立即下载</span>
+        </div>
+        <div class="tiket">
           <ul>
             <li>
-              <a href="#">定位失败</a>
+              <div class="time">9:35</div>
+              <div class="tip">
+                <p>2D / 中文版</p>
+                <p>八号厅</p>
+              </div>
+              <div class="price">￥39</div>
+              <div class="buy">
+                <a href="#" class="buy_tiket">购票</a>
+              </div>
+            </li>
+            <li>
+              <div class="time">9:35</div>
+              <div class="tip">
+                <p>2D / 中文版</p>
+                <p>八号厅</p>
+              </div>
+              <div class="price">￥39</div>
+              <div class="buy">
+                <a href="#" class="buy_tiket">购票</a>
+              </div>
+            </li>
+            <li>
+              <div class="time">9:35</div>
+              <div class="tip">
+                <p>2D / 中文版</p>
+                <p>八号厅</p>
+              </div>
+              <div class="price">￥39</div>
+              <div class="buy">
+                <a href="#" class="buy_tiket">购票</a>
+              </div>
+            </li>
+            <li>
+              <div class="time">9:35</div>
+              <div class="tip">
+                <p>2D / 中文版</p>
+                <p>八号厅</p>
+              </div>
+              <div class="price">￥39</div>
+              <div class="buy">
+                <a href="#" class="buy_tiket">购票</a>
+              </div>
+            </li>
+            <li>
+              <div class="time">9:35</div>
+              <div class="tip">
+                <p>2D / 中文版</p>
+                <p>八号厅</p>
+              </div>
+              <div class="price">￥39</div>
+              <div class="buy">
+                <a href="#" class="buy_tiket">购票</a>
+              </div>
             </li>
           </ul>
-        </dd>
-        <dd class="hot_list">
-          <p>热门城市</p>
-          <ul>
-            <li>上海</li>
-            <li>上海</li>
-          </ul>
-        </dd>
+        </div>
       </div>
-      <div class="cities"></div>
     </div>
   </div>
 </template>

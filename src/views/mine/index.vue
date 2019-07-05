@@ -147,63 +147,6 @@
           </li>
         </ul>
       </div>
-      <div class="movielist">
-        <div class="month">
-          <span>8月</span>
-        </div>
-        <ul>
-          <li>
-            <div class="day">
-              <span>1日</span>
-            </div>
-            <div class="movieboxlist">
-              <div class="moviepic">
-                <a href="#">
-                  <img src="../../../static/img/get1.jpg" alt />
-                </a>
-              </div>
-              <div class="movieinfo">
-                <div class="info">
-                  <a href="#">扫黄2天地对决</a>
-                  <p>
-                    <b class="num">1986</b>人想看 - 动作 / 剧情 / 犯罪
-                  </p>
-                  <p class="info_txt">导演：邱礼涛</p>
-                </div>
-                <div class="btn">
-                  <a href="#" class="btn_orange">超前预售</a>
-                  <a href="#" class="btn_green">预告片</a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="day">
-              <span>5日</span>
-            </div>
-            <div class="movieboxlist">
-              <div class="moviepic">
-                <a href="#">
-                  <img src="../../../static/img/get1.jpg" alt />
-                </a>
-              </div>
-              <div class="movieinfo">
-                <div class="info">
-                  <a href="#">扫黄2天地对决</a>
-                  <p>
-                    <b class="num">1986</b>人想看 - 动作 / 剧情 / 犯罪
-                  </p>
-                  <p class="info_txt">导演：邱礼涛</p>
-                </div>
-                <div class="btn">
-                  <a href="#" class="btn_orange">超前预售</a>
-                  <a href="#" class="btn_green">预告片</a>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
     </div>
   </div>
 </template>
@@ -232,6 +175,7 @@ export default {
   justify-content: center;
   padding: 0 0.5rem;
   box-sizing: border-box;
+  position: relative;
 }
 .back {
   display: block;
@@ -333,18 +277,18 @@ export default {
 }
 .moviescroll {
   padding: 0.34rem 0 0 0;
-  /* margin-bottom: 0.4rem; */
+  overflow-x: auto;
 }
 
 .moviescroll ul {
   width: 3000rem;
   height: 3.42rem;
   display: flex;
-  justify-content: flex-start;
+  white-space: nowrap;
 }
 .moviescroll > ul > li {
-  position: relative;
   width: 6.82rem;
+  position: relative;
   padding: 0.28rem 0 0 0;
   margin-right: 0.2rem;
   border-top: 1px solid #777;
@@ -384,6 +328,9 @@ export default {
 }
 .movieinfo {
   width: 4.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   /* height: 3rem; */
 }
 .movieinfo > .info > a {
@@ -396,7 +343,7 @@ export default {
   line-height: 0.52rem;
 }
 .movieinfo > .info p .num {
-  color: tomato;
+  color: #ff8600;
 }
 .movieinfo .btn {
   display: flex;
@@ -435,7 +382,6 @@ export default {
 .movielist .month {
   border-bottom: 1px solid #bbb;
   padding: 0.15rem 0 0.2rem;
-  margin-right: -0.5rem;
 }
 .month span {
   font-size: 0.32rem;
@@ -443,6 +389,7 @@ export default {
 .movielist > ul > li {
   display: flex;
   padding: 0.4rem 0;
+  border-bottom: 2px solid #d8d8d8;
 }
 .day {
   width: 0.6rem;
