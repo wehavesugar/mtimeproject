@@ -5,6 +5,7 @@ import Home from '../views/home/index.vue';
 import List from '../views/list/index.vue';
 import Order from '../views/order/index.vue';
 import Mine from '../views/mine/index.vue';
+// import Explore from '../views/explore/index.vue';
 import One from '../components/one.vue';
 Vue.use(VueRouter);
 
@@ -15,6 +16,10 @@ const router = new VueRouter({
 	routes: [
 		{
 			path: '/',
+			redirect: '/home'
+		},
+		{
+			path: '/home',
 			component: Home,
 			children: [
 				{
@@ -31,6 +36,10 @@ const router = new VueRouter({
 			path: '/order',
 			component: Order
 		},
+		// {
+		// 	path: '/explore',
+		// 	component: Explore
+		// },
 		{
 			path: '/mine',
 			component: Mine
