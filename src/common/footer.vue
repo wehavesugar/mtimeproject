@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <div class="footer">
     <div id="navbar" class="link">
       <ul class="table_v_c">
         <router-link
@@ -59,7 +59,7 @@
         <span>Mtime.com Inc. All rights reserved.</span>
       </p>
     </div>
-  </footer>
+  </div>
 </template>
 
 <script>
